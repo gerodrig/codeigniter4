@@ -1,0 +1,424 @@
+CRITICAL - 2023-03-19 01:04:54 --> Undefined array key "email"
+in APPPATH/Controllers/Customers.php on line 106.
+ 1 APPPATH/Controllers/Customers.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:04:59 --> Undefined array key "email"
+in APPPATH/Controllers/Customers.php on line 106.
+ 1 APPPATH/Controllers/Customers.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:05:55 --> Undefined array key "email"
+in APPPATH/Controllers/Customers.php on line 106.
+ 1 APPPATH/Controllers/Customers.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:22:20 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 01:22:20 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 01:22:20 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:24:27 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 01:24:27 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 01:24:27 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:26:18 --> Undefined variable $customer
+in APPPATH/Controllers/Customers.php on line 117.
+ 1 APPPATH/Controllers/Customers.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:28:21 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:29:27 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 01:29:27 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 01:29:27 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:30:02 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:30:33 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:30:50 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 60.
+ 1 APPPATH/Models/Customer_model.php(60): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:32:35 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 61.
+ 1 APPPATH/Models/Customer_model.php(61): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:33:32 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 62.
+ 1 APPPATH/Models/Customer_model.php(62): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:34:58 --> Undefined variable $transformed_data
+in APPPATH/Models/Customer_model.php on line 52.
+ 1 APPPATH/Models/Customer_model.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:35:15 --> Undefined property: stdClass::$active
+in APPPATH/Models/Customer_model.php on line 59.
+ 1 APPPATH/Models/Customer_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 01:36:42 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/Customer_model.php on line 61.
+ 1 APPPATH/Models/Customer_model.php(61): strtoupper(null)
+ 2 APPPATH/Controllers/Customers.php(114): App\Models\Customer_model->set_data([...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put('1')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 01:38:46 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 01:38:46 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 01:38:55 --> mysqli_sql_exception: Unknown column 'pager' in 'field list' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 01:38:55 --> Unknown column 'pager' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Customers.php(117): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:50:16 --> Unclosed '(' does not match ']'
+in APPPATH/Models/Customer_model.php on line 84.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Customers.php(26): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Customers->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:51:28 --> Unclosed '(' does not match ']'
+in APPPATH/Models/Customer_model.php on line 85.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Customers.php(26): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Customers->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:51:50 --> Call to a member function setStatusCode() on null
+in APPPATH/Models/Customer_model.php on line 89.
+ 1 APPPATH/Controllers/Customers.php(107): App\Models\Customer_model->insert_customer()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:52:17 --> Call to a member function setStatusCode() on null
+in APPPATH/Models/Customer_model.php on line 89.
+ 1 APPPATH/Controllers/Customers.php(107): App\Models\Customer_model->insert_customer()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 01:53:32 --> Call to a member function setStatusCode() on null
+in APPPATH/Models/Customer_model.php on line 89.
+ 1 APPPATH/Controllers/Customers.php(107): App\Models\Customer_model->insert_customer()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_put()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 02:24:06 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Billing.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 02:24:06 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Billing.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 02:25:08 --> syntax error, unexpected single-quoted string "alll gud"
+in APPPATH/Controllers/Billing.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 02:25:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Billing.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 02:25:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Billing.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 02:29:00 --> Class "App\Controllers\Customer_model" not found
+in APPPATH/Controllers/Billing.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Billing->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 02:29:40 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Billing.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 02:29:40 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Billing.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 02:30:03 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Billing.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 02:30:03 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Billing.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-19 02:30:49 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Billing.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-19 02:30:49 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Billing.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 02:39:50 --> Undefined variable $record
+in APPPATH/Controllers/Billing.php on line 40.
+ 1 APPPATH/Controllers/Billing.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Billing->invoice()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 02:57:56 --> Call to undefined method CodeIgniter\Validation\Validation::setData()
+in APPPATH/Controllers/Customers.php on line 128.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_post()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 02:59:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::resetQuery()
+in APPPATH/Models/Customer_model.php on line 118.
+ 1 APPPATH/Controllers/Customers.php(135): App\Models\Customer_model->update_customer()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 03:03:04 --> Object of class App\Models\Customer_model could not be converted to string
+in APPPATH/Models/Customer_model.php on line 119.
+ 1 APPPATH/Controllers/Customers.php(135): App\Models\Customer_model->update_customer()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 03:06:34 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH/Controllers/Customers.php on line 122.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-19 03:08:23 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'id', null, [...], [...])
+ 3 APPPATH/Controllers/Customers.php(125): CodeIgniter\Validation\Validation->run([...], 'customer_post')
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_post('205')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 03:08:57 --> Cannot use object of type App\Models\Customer_model as array
+in APPPATH/Controllers/Customers.php on line 134.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_post()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-19 03:10:36 --> Cannot use object of type App\Models\Customer_model as array
+in APPPATH/Controllers/Customers.php on line 134.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Customers->customer_post()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

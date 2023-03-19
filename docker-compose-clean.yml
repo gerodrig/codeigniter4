@@ -1,0 +1,31 @@
+version: '2'
+
+services:
+  mariadb:
+    image: docker.io/bitnami/mariadb:10.6
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_USER=bn_restful
+      - MARIADB_DATABASE=bitnami_restful
+    ports:
+      - '3306:3306'
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=mariadb
+    ports:
+      - '8080:80'
+  restful:
+    image: docker.io/bitnami/codeigniter:4.3.2
+    ports:
+      - '8000:8000'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - CODEIGNITER_DATABASE_HOST=mariadb
+      - CODEIGNITER_DATABASE_PORT_NUMBER=3306
+      - CODEIGNITER_DATABASE_USER=bn_restful
+      - CODEIGNITER_DATABASE_NAME=bitnami_restful
+    volumes:
+      - './restful:/app'
+    depends_on:
+      - mariadb

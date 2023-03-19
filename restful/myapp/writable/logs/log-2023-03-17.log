@@ -1,0 +1,311 @@
+ERROR - 2023-03-17 03:03:45 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:03:45 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:04:18 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:04:18 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:04:21 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:04:21 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:04:30 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:04:30 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:05:24 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:05:24 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:05:37 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:05:37 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:06:24 --> syntax error, unexpected identifier "response"
+in APPPATH/Controllers/Testdb.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:06:37 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:06:37 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:09:55 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:09:55 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:09:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:09:57 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:10:28 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:10:28 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:12:29 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:12:29 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:12:31 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:12:31 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:16:34 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH/Helpers/utilities_helper.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-17 03:16:41 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH/Helpers/utilities_helper.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-17 03:28:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Controllers/Testdb.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->update()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:28:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Controllers/Testdb.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->update()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:29:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Controllers/Testdb.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->update()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:29:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Controllers/Testdb.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->update()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:29:38 --> Call to a member function where() on bool
+in APPPATH/Controllers/Testdb.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->update()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 03:29:41 --> Call to a member function where() on bool
+in APPPATH/Controllers/Testdb.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->update()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 03:36:29 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Testdb.php(84): CodeIgniter\Database\BaseBuilder->delete()
+#5 /app/myapp/system/CodeIgniter.php(934): App\Controllers\Testdb->delete()
+#6 /app/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 03:36:29 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Testdb.php(84): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Testdb->delete()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
